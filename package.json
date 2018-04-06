@@ -1,0 +1,8 @@
+{
+  "name": "express-in-action",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "repository": "https://github.com/gyp2018/express-in-action.git",
+  "author": "GimYoungPhil <youngphil.gim@gmail.com>"
+}
