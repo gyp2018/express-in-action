@@ -4,5 +4,11 @@
   "main": "index.js",
   "license": "MIT",
   "repository": "https://github.com/gyp2018/express-in-action.git",
-  "author": "GimYoungPhil <youngphil.gim@gmail.com>"
+  "author": "GimYoungPhil <youngphil.gim@gmail.com>",
+  "dependencies": {
+    "express": "^4.16.3"
+  },
+  "scripts": {
+    "start": "node ./src/ch1/index.js"
+  }
 }
