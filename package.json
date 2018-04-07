@@ -6,7 +6,8 @@
   "repository": "https://github.com/gyp2018/express-in-action.git",
   "author": "GimYoungPhil <youngphil.gim@gmail.com>",
   "dependencies": {
-    "express": "^4.16.3"
+    "express": "^4.16.3",
+    "mustache": "^2.3.0"
   },
   "scripts": {
     "start": "node ./src/ch1/index.js"
