@@ -2,10 +2,10 @@
 
 ```sh
 $ node --version
-v8.9.1
+v8.11.1
 
 $ npm --version
-5.5.1
+5.6.0
 
 $ yarn --version
 1.5.1
