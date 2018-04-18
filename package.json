@@ -13,6 +13,6 @@
     "mustache": "^2.3.0"
   },
   "scripts": {
-    "start": "node ./src/ch4.2/app3.js"
+    "start": "node ./src/ch5/ex5.1.js"
   }
 }
