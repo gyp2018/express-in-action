@@ -1,0 +1,25 @@
+<% include header %>
+
+<div class="container">
+  <h1>Where are you?</h1>
+  <div class="row">
+    <div class="col-3">
+      <div class="card" style="width: 18rem;">
+        <img class="card-img-top" src=".../100px180/" alt="Card image cap">
+        <div class="card-body">
+          <h5 class="card-title">서울</h5>
+          <p class="card-text">37.5665° N, 126.9780° E</p>
+          <button class="btn btn-primary" data-latitude="37.5665" data-longitude="126.9780">Go somewhere</button>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<script
+  src="https://code.jquery.com/jquery-3.3.1.min.js"
+  integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+  crossorigin="anonymous"></script>
+<script src="/main.js"></script>
+
+<% include footer %>
