@@ -1,0 +1,10 @@
+{
+  "name": "ch6.1",
+  "private": true,
+  "scripts": {
+    "start": "ndoe app"
+  },
+  "dependencies": {
+    "express": "^4.16.3"
+  }
+}
