@@ -1,0 +1,18 @@
+<% include _header %>
+
+<h1>Welcome</h1>
+
+<% users.forEach(function(user) { %>
+  <div class="card">
+    <div class="card-header">
+      <a href="/users/<%= user.username %>"><%= user.name() %></a>
+    </div>
+    <div class="card-body">
+      <% if (user.bio) { %>
+        <%= user.bio %>
+      <% } %>
+    </div>
+  </div>
+<% }) %>
+
+<% include _footer %>
