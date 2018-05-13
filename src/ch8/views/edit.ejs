@@ -12,8 +12,8 @@
       <input name="displayname" type="text" class="form-control" id="inputDisplayname" placeholder="Display name" value="<%= currentUser.displayName || '' %>">
     </div>
     <div class="form-group">
-      <label for="inputBio">Password</label>
-      <textarea name="password" class="form-control" id="inputBio" placeholder="Tell us about yourself" ><%= currentUser.displayName || '' %></textarea>
+      <label for="inputBio">Biograph</label>
+      <textarea name="bio" class="form-control" id="inputBio" placeholder="Tell us about yourself" ><%= currentUser.bio || '' %></textarea>
     </div>
   <button type="submit" class="btn btn-primary">Update</button>
 </form>
